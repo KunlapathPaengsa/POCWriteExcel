@@ -20,7 +20,7 @@ namespace POCWriteExcel
             var excelHelper = new ExcelHelper(path, new ExcelHelper.ExcelOptions
             {
                 IsWriteHeader = true
-                , CustomColumnNames = new List<string> { ""1, "", "" } 
+                , CustomColumnNames = new List<string> { "", "", "" } 
                 ,
                 DateFormatProvider = new ExcelHelper.DateFormatProvider
                 {
